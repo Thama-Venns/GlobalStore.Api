@@ -1,0 +1,187 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Web.Core\\Ntvspace.GlobalStoreApi.Web.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj",
+        "projectName": "Ntvspace.GlobalStoreApi.Data",
+        "projectPath": "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj",
+        "packagesPath": "C:\\Users\\tnedzungani\\.nuget\\packages\\",
+        "outputPath": "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tnedzungani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/TrackerZA/_packaging/Tracker/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Web.Core\\Ntvspace.GlobalStoreApi.Web.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Web.Core\\Ntvspace.GlobalStoreApi.Web.Core.csproj",
+        "projectName": "Ntvspace.GlobalStoreApi.Web.Core",
+        "projectPath": "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Web.Core\\Ntvspace.GlobalStoreApi.Web.Core.csproj",
+        "packagesPath": "C:\\Users\\tnedzungani\\.nuget\\packages\\",
+        "outputPath": "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Web.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tnedzungani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/TrackerZA/_packaging/Tracker/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj": {
+                "projectPath": "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.AspNetCore.OData": {
+              "target": "Package",
+              "version": "[7.4.1, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.8.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Linq.Queryable": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

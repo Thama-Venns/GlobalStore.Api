@@ -1,0 +1,11 @@
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.deps.json
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.dll
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.pdb
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.dll
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.pdb
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.csprojAssemblyReference.cache
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.AssemblyInfoInputs.cache
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.AssemblyInfo.cs
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.csproj.CopyComplete
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.dll
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.pdb

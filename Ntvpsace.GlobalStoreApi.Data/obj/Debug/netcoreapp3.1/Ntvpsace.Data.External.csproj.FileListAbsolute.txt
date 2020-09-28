@@ -1,0 +1,9 @@
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvpsace.GlobalStoreApi.Data\bin\Debug\netcoreapp3.1\Ntvpsace.Data.External.deps.json
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvpsace.GlobalStoreApi.Data\bin\Debug\netcoreapp3.1\Ntvpsace.Data.External.dll
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvpsace.GlobalStoreApi.Data\bin\Debug\netcoreapp3.1\Ntvpsace.Data.External.pdb
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvpsace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvpsace.Data.External.csproj.CoreCompileInputs.cache
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvpsace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvpsace.Data.External.AssemblyInfoInputs.cache
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvpsace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvpsace.Data.External.AssemblyInfo.cs
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvpsace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvpsace.Data.External.dll
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvpsace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvpsace.Data.External.pdb
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvpsace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvpsace.Data.External.csprojAssemblyReference.cache

@@ -1,0 +1,15 @@
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Management.deps.json
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Management.dll
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Management.pdb
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.dll
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.dll
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.pdb
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.pdb
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Management.csprojAssemblyReference.cache
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Management.AssemblyInfoInputs.cache
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Management.AssemblyInfo.cs
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Management.csproj.CopyComplete
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Management.dll
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Management.pdb
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Management.xml
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Management\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Management.csproj.CoreCompileInputs.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ntvpsace.Data.External/1.0.0": {
+        "runtime": {
+          "Ntvpsace.Data.External.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ntvpsace.Data.External/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
