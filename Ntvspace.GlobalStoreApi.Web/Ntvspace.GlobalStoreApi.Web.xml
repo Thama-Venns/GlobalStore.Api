@@ -58,6 +58,25 @@
             Add Data services to DI.
             </summary>
         </member>
+        <member name="T:Ntvspace.GlobalStoreApi.Web.Extensions.ExceptionMiddlewareExtension">
+            <summary>
+            Provides operations to handle exceptions.
+            </summary>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Extensions.ExceptionMiddlewareExtension.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Initializes the constructor.
+            </summary>
+            <param name="requestDelegate"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Extensions.ExceptionMiddlewareExtension.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoke request handling.
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
         <member name="T:Ntvspace.GlobalStoreApi.Web.Extensions.MvcExtension">
             <summary>
             Provides operations to register Mvc services to DI.

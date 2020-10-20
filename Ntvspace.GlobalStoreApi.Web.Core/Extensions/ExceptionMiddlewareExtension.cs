@@ -10,7 +10,7 @@ namespace Ntvspace.GlobalStoreApi.Web.Core.Extensions
   /// </summary>
   public static class ExceptionMiddlewareExtension
   {
-    public static void ConfigureExceptionHandler(this IApplicationBuilder app, ILoggerManager logger)
+    public static void ConfigureExceptionHandler(this IApplicationBuilder app)
     {
 
     }

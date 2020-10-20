@@ -9,3 +9,4 @@ C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web
 C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.csproj.CopyComplete
 C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.dll
 C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.pdb
+C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.csproj.CoreCompileInputs.cache
