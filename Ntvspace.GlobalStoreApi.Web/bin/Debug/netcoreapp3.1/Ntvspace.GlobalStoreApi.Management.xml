@@ -124,11 +124,6 @@
             Represents a country's currency.
             </summary>
         </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.Currency.Code">
-            <summary>
-            Gets or sets the currency code.
-            </summary>
-        </member>
         <member name="P:Ntvspace.GlobalStoreApi.Management.Models.Currency.Name">
             <summary>
             Gets or sets the currency name.

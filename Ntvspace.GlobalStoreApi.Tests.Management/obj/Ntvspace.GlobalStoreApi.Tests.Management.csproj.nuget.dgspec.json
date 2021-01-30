@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Tests.Management\\Ntvspace.GlobalStoreApi.Tests.Management.csproj": {}
+    "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Management\\Ntvspace.GlobalStoreApi.Tests.Management.csproj": {}
   },
   "projects": {
-    "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Tests.Management\\Ntvspace.GlobalStoreApi.Tests.Management.csproj": {
+    "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Management\\Ntvspace.GlobalStoreApi.Tests.Management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Tests.Management\\Ntvspace.GlobalStoreApi.Tests.Management.csproj",
+        "projectUniqueName": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Management\\Ntvspace.GlobalStoreApi.Tests.Management.csproj",
         "projectName": "Ntvspace.GlobalStoreApi.Tests.Management",
-        "projectPath": "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Tests.Management\\Ntvspace.GlobalStoreApi.Tests.Management.csproj",
+        "projectPath": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Management\\Ntvspace.GlobalStoreApi.Tests.Management.csproj",
         "packagesPath": "C:\\Users\\tnedzungani\\.nuget\\packages\\",
-        "outputPath": "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Tests.Management\\obj\\",
+        "outputPath": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Management\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\tnedzungani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -24,11 +21,12 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/TrackerZA/_packaging/Tracker/nuget/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -73,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

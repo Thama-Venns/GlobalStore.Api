@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "Castle.Core/4.4.0": {
         "type": "package",
         "dependencies": {
@@ -6984,7 +6984,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "Microsoft.EntityFrameworkCore >= 3.1.5",
       "Microsoft.EntityFrameworkCore.Proxies >= 3.1.5",
       "Microsoft.EntityFrameworkCore.Relational >= 3.1.5",
@@ -6993,34 +6993,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tnedzungani\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\tnedzungani\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj",
+      "projectUniqueName": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj",
       "projectName": "Ntvspace.GlobalStoreApi.Data",
-      "projectPath": "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj",
+      "projectPath": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj",
       "packagesPath": "C:\\Users\\tnedzungani\\.nuget\\packages\\",
-      "outputPath": "C:\\MyProjects\\Antifragile\\GlobalStore\\GlobalStoreApi\\Ntvspace.GlobalStoreApi.Data\\obj\\",
+      "outputPath": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Data\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\tnedzungani\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/TrackerZA/_packaging/Tracker/nuget/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -7031,7 +7028,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -7071,7 +7069,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

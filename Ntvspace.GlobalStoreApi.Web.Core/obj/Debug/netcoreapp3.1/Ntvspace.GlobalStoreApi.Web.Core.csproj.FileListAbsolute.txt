@@ -10,3 +10,15 @@ C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web
 C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.dll
 C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.pdb
 C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.csproj.CoreCompileInputs.cache
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Web.Core\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.deps.json
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Web.Core\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.dll
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Web.Core\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.pdb
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Web.Core\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.dll
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Web.Core\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.pdb
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.csprojAssemblyReference.cache
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.AssemblyInfoInputs.cache
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.AssemblyInfo.cs
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.csproj.CoreCompileInputs.cache
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.csproj.CopyComplete
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.dll
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Web.Core\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Web.Core.pdb

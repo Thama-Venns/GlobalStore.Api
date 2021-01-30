@@ -1,10 +1,13 @@
-﻿namespace Ntvspace.GlobalStoreApi.Management.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Ntvspace.GlobalStoreApi.Management.Models
 {
   /// <summary>
   /// Represents a country's currency.
   /// </summary>
   public class Currency
   {
+    [Key]
     /// <summary>
     /// Gets or sets the currency code.
     /// </summary>

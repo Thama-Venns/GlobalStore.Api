@@ -10,3 +10,15 @@ C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Dat
 C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.genruntimeconfig.cache
 C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.csproj.CoreCompileInputs.cache
 C:\MyProjects\Antifragile\GlobalStore\GlobalStoreApi\Ntvspace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.csprojAssemblyReference.cache
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Data\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.deps.json
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Data\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.runtimeconfig.json
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Data\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.runtimeconfig.dev.json
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Data\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.dll
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Data\bin\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.pdb
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.csprojAssemblyReference.cache
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.AssemblyInfoInputs.cache
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.AssemblyInfo.cs
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.csproj.CoreCompileInputs.cache
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.dll
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.pdb
+C:\Antifragile\GlobalStore.Api\Ntvspace.GlobalStoreApi.Data\obj\Debug\netcoreapp3.1\Ntvspace.GlobalStoreApi.Data.genruntimeconfig.cache

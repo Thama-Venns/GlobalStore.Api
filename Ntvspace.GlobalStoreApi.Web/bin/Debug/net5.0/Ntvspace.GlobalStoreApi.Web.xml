@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ntvspace.GlobalStoreApi.Web</name>
+    </assembly>
+    <members>
+        <member name="T:Ntvspace.GlobalStoreApi.Web.Configuration.ApiVersions">
+            <summary>
+            Represents an api version.
+            </summary>
+        </member>
+        <member name="F:Ntvspace.GlobalStoreApi.Web.Configuration.ApiVersions.v1">
+            <summary>
+            Represents api version 1.0
+            </summary>
+        </member>
+        <member name="F:Ntvspace.GlobalStoreApi.Web.Configuration.ApiVersions.v2">
+            <summary>
+            Represents api version 2.0
+            </summary>
+        </member>
+        <member name="T:Ntvspace.GlobalStoreApi.Web.Configuration.ConfigureSwaggerOptions">
+            <summary>
+            Provides operations to configure swagger options.
+            </summary>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Configuration.ConfigureSwaggerOptions.#ctor(Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+            Ininializes the controller.
+            </summary>
+            <param name="provider"></param>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Configuration.ConfigureSwaggerOptions.Configure(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)">
+            <summary>
+            Configures swagger document.
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="T:Ntvspace.GlobalStoreApi.Web.Configuration.ODataConfig">
+            <summary>
+            Provides the configuration for registering the OData service routes.
+            </summary>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Configuration.ODataConfig.Apply(Microsoft.AspNet.OData.Builder.ODataModelBuilder,Microsoft.AspNetCore.Mvc.ApiVersion)">
+            <summary>
+            Applies model configurations using the provided builder for the specified API version.
+            </summary>
+            <param name="builder"></param>
+            <param name="apiVersion"></param>
+        </member>
+        <member name="T:Ntvspace.GlobalStoreApi.Web.Extensions.DataExtension">
+            <summary>
+            Provides operations to register Data services to DI.
+            </summary>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Extensions.DataExtension.AddSDataExtensions(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Add Data services to DI.
+            </summary>
+        </member>
+        <member name="T:Ntvspace.GlobalStoreApi.Web.Extensions.ExceptionMiddlewareExtension">
+            <summary>
+            Provides operations to handle exceptions.
+            </summary>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Extensions.ExceptionMiddlewareExtension.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Initializes the constructor.
+            </summary>
+            <param name="requestDelegate"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Extensions.ExceptionMiddlewareExtension.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoke request handling.
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Ntvspace.GlobalStoreApi.Web.Extensions.MvcExtension">
+            <summary>
+            Provides operations to register Mvc services to DI.
+            </summary>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Extensions.MvcExtension.AddMvcExtensions(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add Mvc services to DI.
+            </summary>
+        </member>
+        <member name="T:Ntvspace.GlobalStoreApi.Web.Extensions.RepositoryRegistryExtension">
+            <summary>
+            Adds repositories to DI on startup.
+            </summary>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Extensions.RepositoryRegistryExtension.AddRepositoryExtension(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds all repositories to DI
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:Ntvspace.GlobalStoreApi.Web.Extensions.SecurityExtension">
+            <summary>
+            Provides operations to register Security services to DI.
+            </summary>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Extensions.SecurityExtension.AddSecurityExtensions(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Add Security services to DI.
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="T:Ntvspace.GlobalStoreApi.Web.Startup">
+            <summary>
+            Provides operations to register and configure services.
+            </summary>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes the constructor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Ntvspace.GlobalStoreApi.Web.Startup.Configuration">
+            <summary>
+            Gets the configuration.
+            </summary>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNet.OData.Builder.VersionedODataModelBuilder,Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            /// <param name="modelBuilder"></param>
+            <param name="provider"></param>
+        </member>
+        <member name="T:Ntvspace.GlobalStoreApi.Web.Swagger.SwaggerDefaultValues">
+            <summary>
+            Represents the Swagger/Swashbuckle operation filter used to document the implicit API version parameter.
+            </summary>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Swagger.SwaggerDefaultValues.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            Applies the filter to the specified operation using the given context.
+            </summary>
+            <param name="operation"></param>
+            <param name="context"></param>
+        </member>
+    </members>
+</doc>
