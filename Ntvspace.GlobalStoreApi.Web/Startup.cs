@@ -82,6 +82,7 @@ namespace Ntvspace.GlobalStoreApi.Web
         app.UseDeveloperExceptionPage();
       }
 
+      app.UseCors("CorsPolicy");
       app.UseAuthentication();
 
       // OData controller models.

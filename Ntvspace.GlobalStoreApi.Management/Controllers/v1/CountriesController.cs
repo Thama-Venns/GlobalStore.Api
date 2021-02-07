@@ -20,6 +20,7 @@ namespace Ntvspace.GlobalStoreApi.Management.Controllers.v1
   [ApiVersion("1.0")]
   [SwaggerTag("Provides operations to manage countries.")]
   [Authorize(Policy = Policy.UsecurePolicy)]
+  [Produces("application/json")]
   public class CountriesController : ODataController
   {
     private readonly ICountriesRepository _countriesRepository;
@@ -43,6 +44,7 @@ namespace Ntvspace.GlobalStoreApi.Management.Controllers.v1
     /// </summary>
     /// <returns></returns>
     [EnableQuery]
+    [Produces("application/json")]
     public IQueryable<Country> Get() => Query();
 
     /// <summary>
