@@ -9,7 +9,7 @@
             Provides operations to manage countries.
             </summary>
         </member>
-        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.CountriesController.#ctor(Ntvspace.GlobalStoreApi.Web.Core.Repositories.ICountriesRepository,Ntvspace.GlobalStoreApi.Web.Core.RedisCache.IResponseCacheRepository)">
+        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.CountriesController.#ctor(Ntvspace.GlobalStoreApi.Web.Domain.Repositories.ICountriesRepository,Ntvspace.GlobalStoreApi.Web.Core.RedisCache.IResponseCacheRepository)">
             <summary>
             Initiates the controller.
             </summary>
@@ -36,16 +36,47 @@
             <param name="name"></param>
             <returns></returns>
         </member>
+        <member name="T:Ntvspace.GlobalStoreApi.Management.Controllers.v1.LocationsController">
+            <summary>
+            Provides operations to manage stores.
+            </summary>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.LocationsController.#ctor(MediatR.IMediator)">
+            <summary>
+            Initializes the controller.
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.LocationsController.Get">
+            <summary>
+            Retrieves a list of store details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.LocationsController.Get(System.Int32)">
+            <summary>
+            Rereieves a store/location's details
+            </summary>
+            <param name="key">loationId</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.LocationsController.GetMerchantLocations(System.Int32)">
+            <summary>
+            Rereieves a store/location's details
+            </summary>
+            <param name="merchantId">merchantId</param>
+            <returns></returns>
+        </member>
         <member name="T:Ntvspace.GlobalStoreApi.Management.Controllers.v1.MerchantsController">
             <summary>
             Provides operations to manage merchants.
             </summary>
         </member>
-        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.MerchantsController.#ctor(Ntvspace.GlobalStoreApi.Web.Core.Repositories.IMerchantsRepository)">
+        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.MerchantsController.#ctor(MediatR.IMediator)">
             <summary>
             Initializes the constructor.
             </summary>
-            <param name="merchantsRepository"></param>
+            <param name="mediator"></param>
         </member>
         <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.MerchantsController.Get">
             <summary>
@@ -60,438 +91,28 @@
             <param name="key"></param>
             <returns></returns>
         </member>
-        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.MerchantsController.Post(Ntvspace.GlobalStoreApi.Management.Models.v1.Merchant)">
+        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.MerchantsController.Post(Ntvspace.GlobalStoreApi.Domain.Requests.MerchantRequest)">
             <summary>
             Creates a new merchant.
             </summary>
             <param name="model">Merchant Request</param>
             <returns></returns>
         </member>
-        <member name="T:Ntvspace.GlobalStoreApi.Management.Controllers.v1.StoresController">
+        <member name="T:Ntvspace.GlobalStoreApi.Management.Controllers.v1.SearchController">
             <summary>
-            Provides operations to manage stores.
+            Provides operations to search global store.
             </summary>
         </member>
-        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.StoresController.#ctor(Ntvspace.GlobalStoreApi.Web.Core.Repositories.IStoresRepository)">
+        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.SearchController.#ctor(MediatR.IMediator)">
             <summary>
-            Initializes the controller.
+            Initializes controller.
             </summary>
-            <param name="storesRepository"></param>
         </member>
-        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.StoresController.Get">
+        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.SearchController.Get(System.String)">
             <summary>
-            Retrieves a list of store details
+            Retrieve global search results.
             </summary>
-            <returns></returns>
-        </member>
-        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.StoresController.Get(System.Int32)">
-            <summary>
-            Rereieves a store's details
-            </summary>
-            <param name="key">storeID</param>
-            <returns></returns>
-        </member>
-        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.StoresController.Post(Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest)">
-            <summary>
-            Creates a new store.
-            </summary>
-            <param name="model"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Ntvspace.GlobalStoreApi.Management.Controllers.v1.TestController">
-            <summary>
-            Provides operations to test stuff.
-            </summary>
-        </member>
-        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.TestController.#ctor(Ntvspace.GlobalStoreApi.Web.Core.Operations.LocationDataSeed)">
-            <summary>
-            Initializes the controller.
-            </summary>
-        </member>
-        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.TestController.GetClaims">
-            <summary>
-            Gets user info.
-            </summary>
-        </member>
-        <member name="M:Ntvspace.GlobalStoreApi.Management.Controllers.v1.TestController.CreateLocations">
-            <summary>
-            Create locations.
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="T:Ntvspace.GlobalStoreApi.Management.Models.Currency">
-            <summary>
-            Represents a country's currency.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.Currency.Name">
-            <summary>
-            Gets or sets the currency name.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.Currency.Symbol">
-            <summary>
-            Gets or sets the currency symbol.
-            </summary>
-        </member>
-        <member name="T:Ntvspace.GlobalStoreApi.Management.Models.Custom.Position">
-            <summary>
-            Represents a coutry's position (Lat/Long)
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.Custom.Position.Latitude">
-            <summary>
-            Gets or sets the latitude
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.Custom.Position.Longitude">
-            <summary>
-            Gets or sets the longitude
-            </summary>
-        </member>
-        <member name="T:Ntvspace.GlobalStoreApi.Management.Models.v1.Branch">
-            <summary>
-            Represents a branch.
-            </summary>
-        </member>
-        <member name="T:Ntvspace.GlobalStoreApi.Management.Models.v1.Country">
-            <summary>
-            Represents a country
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Country.Id">
-            <summary>
-            Gets or sets the country identifier.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Country.Name">
-            <summary>
-            Gets or sets the country name.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Country.Alpha3Code">
-            <summary>
-            Gets or sets the country alpha3code.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Country.Capital">
-            <summary>
-            Gets or sets the country's capital city.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Country.Region">
-            <summary>
-            Gets or sets the country region.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Country.Subregion">
-            <summary>
-            Gets or sets the country subregion.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Country.Demonym">
-            <summary>
-            Gets or sets the country citizen demonym.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Country.Flag">
-            <summary>
-            Gets or sets the country's flag (image).
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Country.Latitude">
-            <summary>
-            Gets or sets the country's position latitude.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Country.Longitude">
-            <summary>
-            Gets or sets the country's position longitude.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Country.TimeZones">
-            <summary>
-            Gets or sets the country's time zone(s).
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Country.Borders">
-            <summary>
-            Gets or sets the country's borders.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Country.Currencies">
-            <summary>
-            Gets or sets the country's currency(s).
-            </summary>
-        </member>
-        <member name="T:Ntvspace.GlobalStoreApi.Management.Models.v1.Merchant">
-            <summary>
-            Represents a merchant
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Merchant.Id">
-            <summary>
-            Gets or sets the merchant identifier.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Merchant.Name">
-            <summary>
-            Gets or sets the merchant name.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Merchant.Website">
-            <summary>
-            Gets or sets the website.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Merchant.Description">
-            <summary>
-            Gets or sets the merchant description
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Merchant.Logo">
-            <summary>
-            Gets or sets the merchant logo.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Merchant.MerchantClassification">
-            <summary>
-            Gets or sets the merchant classification.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Merchant.Addresses">
-            <summary>
-            Gets or sets the merchant addresses.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Merchant.Stores">
-            <summary>
-            Gets or sets merchant stores.
-            </summary>
-        </member>
-        <member name="T:Ntvspace.GlobalStoreApi.Management.Models.v1.Product">
-            <summary>
-            Represts a product.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Product.Id">
-            <summary>
-            Gets or sets the product identifier
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Product.Name">
-            <summary>
-            Gets or sets the product name.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Product.Description">
-            <summary>
-            Gets or sets the product description.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Product.Code">
-            <summary>
-            Gets or sets the product code.
-            </summary>
-        </member>
-        <member name="T:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest">
-            <summary>
-            Represents a store request.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.Id">
-            <summary>
-            Gets or sets the store identifier.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.Name">
-            <summary>
-            Gets or sets the store name.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.Website">
-            <summary>
-            Gets or sets the store website.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.Description">
-            <summary>
-            Gets or sets the store description.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.Province">
-            <summary>
-            Gets or sets a provice.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.AddressLine">
-            <summary>
-            Gets or sets the store address line 1.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.AddressLine2">
-            <summary>
-            Gets or sets the store address line 2.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.ZipCode">
-            <summary>
-            Gets or sets the zip code.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.Latitude">
-            <summary>
-            Gets or sets the latitude.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.Longitude">
-            <summary>
-            Gets or sets the longitude.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.AddressTypeId">
-            <summary>
-            Gets or sets the address type.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.MerchantClassificationId">
-            <summary>
-            Gets or sets the identifier for merchant classification.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.Merchant">
-            <summary>
-            Gets or sets the company name.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.MerchantDescription">
-            <summary>
-            Gets or sets the company description.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.CompanyWebsite">
-            <summary>
-            Gets or sets the company website.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.City">
-            <summary>
-            Gets or sets the city.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Request.StoreRequest.CountryId">
-            <summary>
-            Gets or sets the country id.
-            </summary>
-        </member>
-        <member name="T:Ntvspace.GlobalStoreApi.Management.Models.v1.Store">
-            <summary>
-            Represents a store.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Store.Id">
-            <summary>
-            Gets or sets the store identifier.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Store.Name">
-            <summary>
-            Gets or sets the store name.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Store.Website">
-            <summary>
-            Gets or sets the store website.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Store.Image">
-            <summary>
-            Gets or sets the store image.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Store.Description">
-            <summary>
-            Gets or sets the store description.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Store.Address">
-            <summary>
-            Gets or sets the store address.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Store.Merchant">
-            <summary>
-            Gets or sets the Merchant
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.v1.Store.Products">
-            <summary>
-            Gets or sets the products
-            </summary>
-        </member>
-        <member name="T:Ntvspace.GlobalStoreApi.Management.Models.Border">
-            <summary>
-            Represents a border.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.Border.Id">
-            <summary>
-            Gets or sets the border identifier.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.Border.Name">
-            <summary>
-            Gets or sets the border name.
-            </summary>
-        </member>
-        <member name="T:Ntvspace.GlobalStoreApi.Management.Models.CountryTimeZone">
-            <summary>
-            Represents a country timezone.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.CountryTimeZone.TimeZone">
-            <summary>
-            Gets or sets a country timezone.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.CountryTimeZone.Country">
-            <summary>
-            Gets or sets a country.
-            </summary>
-        </member>
-        <member name="T:Ntvspace.GlobalStoreApi.Management.Models.Mappers.CountryMapper">
-            <summary>
-            Provides operations to map data from/to a rest api and model object.
-            </summary>
-        </member>
-        <member name="M:Ntvspace.GlobalStoreApi.Management.Models.Mappers.CountryMapper.FromApi(Ntvspace.GlobalStoreApi.Data.Models.CountryModel)">
-            <summary>
-            Maps data retrieved from an external rest api to a model object.
-            </summary>
-            <param name="source"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Ntvspace.GlobalStoreApi.Management.Models.Mappers.CountryMapper.FromEntity(Ntvspace.GlobalStoreApi.Data.Entities.Country)">
-            <summary>
-            Maps data retrieved from an external rest api to a model object.
-            </summary>
-            <param name="source"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Ntvspace.GlobalStoreApi.Management.Models.TimeZone">
-            <summary>
-            Represents a time zone.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.TimeZone.Id">
-            <summary>
-            Gets or sets Timezone identifier.
-            </summary>
-        </member>
-        <member name="P:Ntvspace.GlobalStoreApi.Management.Models.TimeZone.TimeZoneUtc">
-            <summary>
-            Gets or sets the timezone name.
-            </summary>
+            <param name="searchKey"></param>
         </member>
     </members>
 </doc>

@@ -19,8 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ntvspace.GlobalStoreApi.Dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ntvspace.GlobalStoreApi.Web", "Ntvspace.GlobalStoreApi.Web\Ntvspace.GlobalStoreApi.Web.csproj", "{0D64BD11-8B2F-4658-8D3A-41A805EA1B17}"
 	ProjectSection(ProjectDependencies) = postProject
+		{968D0928-28BB-4063-96C1-26F4AEEBC422} = {968D0928-28BB-4063-96C1-26F4AEEBC422}
 		{24775F74-093A-447E-915D-CA769509F645} = {24775F74-093A-447E-915D-CA769509F645}
 		{F5807581-85A6-41EC-8697-0B4BF2EBC4C0} = {F5807581-85A6-41EC-8697-0B4BF2EBC4C0}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ntvspace.GlobalStoreApi.Domain", "Ntvspace.GlobalStoreApi.Domain\Ntvspace.GlobalStoreApi.Domain.csproj", "{56134ADF-CE5A-47A7-B1C3-958EE3FE4FE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ntvspce.GlobalStoreApi.Application", "Ntvspce.GlobalStoreApi.Application\Ntvspce.GlobalStoreApi.Application.csproj", "{968D0928-28BB-4063-96C1-26F4AEEBC422}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F5807581-85A6-41EC-8697-0B4BF2EBC4C0} = {F5807581-85A6-41EC-8697-0B4BF2EBC4C0}
+		{56134ADF-CE5A-47A7-B1C3-958EE3FE4FE2} = {56134ADF-CE5A-47A7-B1C3-958EE3FE4FE2}
 	EndProjectSection
 EndProject
 Global
@@ -53,6 +62,14 @@ Global
 		{0D64BD11-8B2F-4658-8D3A-41A805EA1B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D64BD11-8B2F-4658-8D3A-41A805EA1B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D64BD11-8B2F-4658-8D3A-41A805EA1B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56134ADF-CE5A-47A7-B1C3-958EE3FE4FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56134ADF-CE5A-47A7-B1C3-958EE3FE4FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56134ADF-CE5A-47A7-B1C3-958EE3FE4FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56134ADF-CE5A-47A7-B1C3-958EE3FE4FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968D0928-28BB-4063-96C1-26F4AEEBC422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968D0928-28BB-4063-96C1-26F4AEEBC422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968D0928-28BB-4063-96C1-26F4AEEBC422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968D0928-28BB-4063-96C1-26F4AEEBC422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

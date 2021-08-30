@@ -2313,6 +2313,19 @@
         "runtime": {
           "bin/placeholder/Ntvspace.GlobalStoreApi.Data.dll": {}
         }
+      },
+      "Ntvspace.GlobalStoreApi.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Ntvspace.GlobalStoreApi.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ntvspace.GlobalStoreApi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ntvspace.GlobalStoreApi.Domain.dll": {}
+        }
       }
     }
   },
@@ -7743,6 +7756,11 @@
       "type": "project",
       "path": "../Ntvspace.GlobalStoreApi.Data/Ntvspace.GlobalStoreApi.Data.csproj",
       "msbuildProject": "../Ntvspace.GlobalStoreApi.Data/Ntvspace.GlobalStoreApi.Data.csproj"
+    },
+    "Ntvspace.GlobalStoreApi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Ntvspace.GlobalStoreApi.Domain/Ntvspace.GlobalStoreApi.Domain.csproj",
+      "msbuildProject": "../Ntvspace.GlobalStoreApi.Domain/Ntvspace.GlobalStoreApi.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7756,6 +7774,7 @@
       "NEST >= 7.8.1",
       "Newtonsoft.Json >= 12.0.3",
       "Ntvspace.GlobalStoreApi.Data >= 1.0.0",
+      "Ntvspace.GlobalStoreApi.Domain >= 1.0.0",
       "System.Linq.Queryable >= 4.3.0"
     ]
   },
@@ -7765,11 +7784,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Web.Core\\Ntvspace.GlobalStoreApi.Web.Core.csproj",
+      "projectUniqueName": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Web.Core\\Ntvspace.GlobalStoreApi.Web.Core.csproj",
       "projectName": "Ntvspace.GlobalStoreApi.Web.Core",
-      "projectPath": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Web.Core\\Ntvspace.GlobalStoreApi.Web.Core.csproj",
+      "projectPath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Web.Core\\Ntvspace.GlobalStoreApi.Web.Core.csproj",
       "packagesPath": "C:\\Users\\tnedzungani\\.nuget\\packages\\",
-      "outputPath": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Web.Core\\obj\\",
+      "outputPath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Web.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tnedzungani\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7786,8 +7805,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj": {
-              "projectPath": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj"
+            "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj": {
+              "projectPath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj"
+            },
+            "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Domain\\Ntvspace.GlobalStoreApi.Domain.csproj": {
+              "projectPath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Domain\\Ntvspace.GlobalStoreApi.Domain.csproj"
             }
           }
         }
@@ -7850,14 +7872,11 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

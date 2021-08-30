@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Text.Json;
 
 namespace Ntvspace.GlobalStoreApi.Web.Core.Models
 {
   /// <summary>
-  /// Descricribes an Http Exception
+  /// Represents an Http Exception
   /// </summary>
-  public class HttpException
+  public class HttpError
   {
     /// <summary>
     /// Gets or sets the http response
@@ -17,5 +16,10 @@ namespace Ntvspace.GlobalStoreApi.Web.Core.Models
     /// Gets or sets the response message.
     /// </summary>
     public string Message { get; set; }
-  }
+
+    public string ToJsonString()
+    {
+        return JsonSerializer.Serialize(this);
+    }
+    }
 }

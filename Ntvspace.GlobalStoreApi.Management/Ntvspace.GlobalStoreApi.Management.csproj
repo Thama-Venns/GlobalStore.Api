@@ -11,6 +11,8 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.OData" Version="7.4.1" />
     <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="3.1.6" />
@@ -19,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Ntvspace.GlobalStoreApi.Web.Core\Ntvspace.GlobalStoreApi.Web.Core.csproj" />
+    <ProjectReference Include="..\Ntvspce.GlobalStoreApi.Application\Ntvspce.GlobalStoreApi.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

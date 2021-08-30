@@ -17,6 +17,7 @@
           "NEST": "7.8.1",
           "Newtonsoft.Json": "12.0.3",
           "Ntvspace.GlobalStoreApi.Data": "1.0.0",
+          "Ntvspace.GlobalStoreApi.Domain": "1.0.0",
           "System.Linq.Queryable": "4.3.0"
         },
         "runtime": {
@@ -1394,6 +1395,14 @@
         "runtime": {
           "Ntvspace.GlobalStoreApi.Data.dll": {}
         }
+      },
+      "Ntvspace.GlobalStoreApi.Domain/1.0.0": {
+        "dependencies": {
+          "Ntvspace.GlobalStoreApi.Data": "1.0.0"
+        },
+        "runtime": {
+          "Ntvspace.GlobalStoreApi.Domain.dll": {}
+        }
       }
     }
   },
@@ -2447,6 +2456,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "Ntvspace.GlobalStoreApi.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ntvspace.GlobalStoreApi.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

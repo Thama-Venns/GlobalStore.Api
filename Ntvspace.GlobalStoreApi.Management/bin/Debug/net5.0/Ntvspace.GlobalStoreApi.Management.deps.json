@@ -9,10 +9,13 @@
       "Ntvspace.GlobalStoreApi.Management/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.0.0",
+          "MediatR": "9.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.AspNetCore.Mvc.Versioning": "4.1.1",
           "Microsoft.AspNetCore.OData": "7.4.1",
           "Microsoft.Extensions.Caching.StackExchangeRedis": "3.1.6",
           "Ntvspace.GlobalStoreApi.Web.Core": "1.0.0",
+          "Ntvspce.GlobalStoreApi.Application": "1.0.0",
           "Swashbuckle.AspNetCore.Annotations": "5.5.1"
         },
         "runtime": {
@@ -61,6 +64,26 @@
           "lib/netstandard2.1/Elasticsearch.Net.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.8.1.0"
+          }
+        }
+      },
+      "MediatR/9.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
           }
         }
       },
@@ -1436,6 +1459,14 @@
           "Ntvspace.GlobalStoreApi.Data.dll": {}
         }
       },
+      "Ntvspace.GlobalStoreApi.Domain/1.0.0": {
+        "dependencies": {
+          "Ntvspace.GlobalStoreApi.Data": "1.0.0"
+        },
+        "runtime": {
+          "Ntvspace.GlobalStoreApi.Domain.dll": {}
+        }
+      },
       "Ntvspace.GlobalStoreApi.Web.Core/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "3.1.5",
@@ -1447,10 +1478,21 @@
           "NEST": "7.8.1",
           "Newtonsoft.Json": "12.0.3",
           "Ntvspace.GlobalStoreApi.Data": "1.0.0",
+          "Ntvspace.GlobalStoreApi.Domain": "1.0.0",
           "System.Linq.Queryable": "4.3.0"
         },
         "runtime": {
           "Ntvspace.GlobalStoreApi.Web.Core.dll": {}
+        }
+      },
+      "Ntvspce.GlobalStoreApi.Application/1.0.0": {
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
+          "Ntvspace.GlobalStoreApi.Web.Core": "1.0.0"
+        },
+        "runtime": {
+          "Ntvspce.GlobalStoreApi.Application.dll": {}
         }
       }
     }
@@ -1481,6 +1523,20 @@
       "sha512": "sha512-vGHlxY72LH8/DcKb/QDpvrIelQIUFxNnXa+HmS/ifX7M7dgwmTpA2i4SagQ65gg7oi088cteUuDl4fKIystg7Q==",
       "path": "elasticsearch.net/7.8.1",
       "hashPath": "elasticsearch.net.7.8.1.nupkg.sha512"
+    },
+    "MediatR/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "path": "mediatr/9.0.0",
+      "hashPath": "mediatr.9.0.0.nupkg.sha512"
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-msreY4ogiPdIRWiCQVHQDytIQpsZCLWsixWPZ+Xs86KZrvtuiV8BDHbIT0kBmogynVYWNpspb3caw+86YU8L6w==",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/9.0.0",
+      "hashPath": "mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/3.1.5": {
       "type": "package",
@@ -2544,7 +2600,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Ntvspace.GlobalStoreApi.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Ntvspace.GlobalStoreApi.Web.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ntvspce.GlobalStoreApi.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

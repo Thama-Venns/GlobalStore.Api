@@ -1,3 +1,4 @@
+using MediatR;
 using Microsoft.AspNet.OData.Builder;
 using Microsoft.AspNet.OData.Extensions;
 using Microsoft.AspNetCore.Builder;
@@ -6,12 +7,11 @@ using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Ntvspace.GlobalStoreApi.Web.Core.Operations;
 using Ntvspace.GlobalStoreApi.Web.Core.Settings;
 using Ntvspace.GlobalStoreApi.Web.Extensions;
+using Ntvspce.GlobalStoreApi.Application.Merchants.EventHandlers;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace Ntvspace.GlobalStoreApi.Web
 {
@@ -47,6 +47,7 @@ namespace Ntvspace.GlobalStoreApi.Web
                .AllowAnyHeader();
       }));
 
+      services.AddMediatR(typeof(GetMerchantHandler).Assembly);
       services.AddControllers(o => o.EnableEndpointRouting = false);
 
       services.AddSingleton(Configuration.GetSection("Security").Get<Security>());
@@ -77,7 +78,9 @@ namespace Ntvspace.GlobalStoreApi.Web
                           VersionedODataModelBuilder modelBuilder,
                           IApiVersionDescriptionProvider provider)
     {
-      if (env.IsDevelopment())
+
+            app.UseGlobalExceptionHandler();
+      if (env.IsDevelopment() && env.IsStaging())
       {
         app.UseDeveloperExceptionPage();
       }
@@ -90,7 +93,7 @@ namespace Ntvspace.GlobalStoreApi.Web
       app.UseMvc(routeBuilder =>
       {
         routeBuilder.EnableDependencyInjection();
-        routeBuilder.MapVersionedODataRoutes("odata", "v{version:apiVersion}", models);
+        routeBuilder.MapVersionedODataRoutes("odata", "api/v{version:apiVersion}", models);
         routeBuilder.Count().Filter().Select().OrderBy().Expand().SkipToken().MaxTop(null);
       });
 

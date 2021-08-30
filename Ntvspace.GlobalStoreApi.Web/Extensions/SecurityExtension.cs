@@ -31,10 +31,13 @@ namespace Ntvspace.GlobalStoreApi.Web.Extensions
 
       services.AddAuthorization(options =>
       {
-        options.AddPolicy("UsecureAuthorizationPolicy", requirement =>
+        options.AddPolicy(Policy.UsecurePolicy, requirement =>
         {
           requirement.AddRequirements(
             new UsecureAuthorizationRequirement());
+        });
+        options.AddPolicy(Policy.ClientPolicy, requirement => {
+            requirement.RequireScope("globalApi");
         });
       });
 

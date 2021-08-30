@@ -12,7 +12,7 @@ namespace Ntvspace.GlobalStoreApi.Data.Context
     public DbSet<AddressType> AddressTypes { get; set; }
     public DbSet<Border> Borders { get; set; }
     public DbSet<Category> Categories { get; set; }
-    public DbSet<Store> Stores { get; set; }
+    public DbSet<Location> Locations { get; set; }
     public DbSet<Merchant> Merchants { get; set; }
     public DbSet<City> Cities { get; set; }
     public DbSet<Country> Countries { get; set; }

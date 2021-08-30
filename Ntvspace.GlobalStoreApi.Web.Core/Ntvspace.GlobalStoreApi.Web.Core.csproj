@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Ntvspace.GlobalStoreApi.Data\Ntvspace.GlobalStoreApi.Data.csproj" />
+    <ProjectReference Include="..\Ntvspace.GlobalStoreApi.Domain\Ntvspace.GlobalStoreApi.Domain.csproj" />
   </ItemGroup>
 
 </Project>

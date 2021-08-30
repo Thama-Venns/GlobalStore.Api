@@ -3,11 +3,10 @@ using Microsoft.AspNet.OData.Routing;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Ntvspace.GlobalStoreApi.Management.Models.Mappers;
-using Ntvspace.GlobalStoreApi.Management.Models.v1;
+using Ntvspace.GlobalStoreApi.Domain.Models;
 using Ntvspace.GlobalStoreApi.Web.Core.Authorization;
 using Ntvspace.GlobalStoreApi.Web.Core.RedisCache;
-using Ntvspace.GlobalStoreApi.Web.Core.Repositories;
+using Ntvspace.GlobalStoreApi.Web.Domain.Repositories;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +18,7 @@ namespace Ntvspace.GlobalStoreApi.Management.Controllers.v1
   /// </summary>
   [ApiVersion("1.0")]
   [SwaggerTag("Provides operations to manage countries.")]
-  [Authorize(Policy = Policy.UsecurePolicy)]
+  // [Authorize(Policy = Policy.UsecurePolicy)]
   [Produces("application/json")]
   public class CountriesController : ODataController
   {

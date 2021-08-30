@@ -50,6 +50,28 @@
           "lib/netstandard2.1/Elasticsearch.Net.dll": {}
         }
       },
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/3.1.5": {
         "type": "package",
         "dependencies": {
@@ -2371,6 +2393,19 @@
           "bin/placeholder/Ntvspace.GlobalStoreApi.Data.dll": {}
         }
       },
+      "Ntvspace.GlobalStoreApi.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Ntvspace.GlobalStoreApi.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ntvspace.GlobalStoreApi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ntvspace.GlobalStoreApi.Domain.dll": {}
+        }
+      },
       "Ntvspace.GlobalStoreApi.Web.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2384,6 +2419,7 @@
           "NEST": "7.8.1",
           "Newtonsoft.Json": "12.0.3",
           "Ntvspace.GlobalStoreApi.Data": "1.0.0",
+          "Ntvspace.GlobalStoreApi.Domain": "1.0.0",
           "System.Linq.Queryable": "4.3.0"
         },
         "compile": {
@@ -2391,10 +2427,22 @@
         },
         "runtime": {
           "bin/placeholder/Ntvspace.GlobalStoreApi.Web.Core.dll": {}
+        }
+      },
+      "Ntvspce.GlobalStoreApi.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
+          "Ntvspace.GlobalStoreApi.Web.Core": "1.0.0"
         },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        "compile": {
+          "bin/placeholder/Ntvspce.GlobalStoreApi.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ntvspce.GlobalStoreApi.Application.dll": {}
+        }
       }
     }
   },
@@ -2460,6 +2508,37 @@
         "lib/netstandard2.1/Elasticsearch.Net.xml",
         "license.txt",
         "nuget-icon.png"
+      ]
+    },
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+      "sha512": "msreY4ogiPdIRWiCQVHQDytIQpsZCLWsixWPZ+Xs86KZrvtuiV8BDHbIT0kBmogynVYWNpspb3caw+86YU8L6w==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authorization/3.1.5": {
@@ -7928,19 +8007,32 @@
       "path": "../Ntvspace.GlobalStoreApi.Data/Ntvspace.GlobalStoreApi.Data.csproj",
       "msbuildProject": "../Ntvspace.GlobalStoreApi.Data/Ntvspace.GlobalStoreApi.Data.csproj"
     },
+    "Ntvspace.GlobalStoreApi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Ntvspace.GlobalStoreApi.Domain/Ntvspace.GlobalStoreApi.Domain.csproj",
+      "msbuildProject": "../Ntvspace.GlobalStoreApi.Domain/Ntvspace.GlobalStoreApi.Domain.csproj"
+    },
     "Ntvspace.GlobalStoreApi.Web.Core/1.0.0": {
       "type": "project",
       "path": "../Ntvspace.GlobalStoreApi.Web.Core/Ntvspace.GlobalStoreApi.Web.Core.csproj",
       "msbuildProject": "../Ntvspace.GlobalStoreApi.Web.Core/Ntvspace.GlobalStoreApi.Web.Core.csproj"
+    },
+    "Ntvspce.GlobalStoreApi.Application/1.0.0": {
+      "type": "project",
+      "path": "../Ntvspce.GlobalStoreApi.Application/Ntvspce.GlobalStoreApi.Application.csproj",
+      "msbuildProject": "../Ntvspce.GlobalStoreApi.Application/Ntvspce.GlobalStoreApi.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper >= 10.0.0",
+      "MediatR >= 9.0.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Microsoft.AspNetCore.Mvc.Versioning >= 4.1.1",
       "Microsoft.AspNetCore.OData >= 7.4.1",
       "Microsoft.Extensions.Caching.StackExchangeRedis >= 3.1.6",
       "Ntvspace.GlobalStoreApi.Web.Core >= 1.0.0",
+      "Ntvspce.GlobalStoreApi.Application >= 1.0.0",
       "Swashbuckle.AspNetCore.Annotations >= 5.5.1"
     ]
   },
@@ -7950,11 +8042,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Management\\Ntvspace.GlobalStoreApi.Management.csproj",
+      "projectUniqueName": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Management\\Ntvspace.GlobalStoreApi.Management.csproj",
       "projectName": "Ntvspace.GlobalStoreApi.Management",
-      "projectPath": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Management\\Ntvspace.GlobalStoreApi.Management.csproj",
+      "projectPath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Management\\Ntvspace.GlobalStoreApi.Management.csproj",
       "packagesPath": "C:\\Users\\tnedzungani\\.nuget\\packages\\",
-      "outputPath": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Management\\obj\\",
+      "outputPath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Management\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tnedzungani\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7971,8 +8063,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Web.Core\\Ntvspace.GlobalStoreApi.Web.Core.csproj": {
-              "projectPath": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Web.Core\\Ntvspace.GlobalStoreApi.Web.Core.csproj"
+            "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Web.Core\\Ntvspace.GlobalStoreApi.Web.Core.csproj": {
+              "projectPath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Web.Core\\Ntvspace.GlobalStoreApi.Web.Core.csproj"
+            },
+            "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspce.GlobalStoreApi.Application\\Ntvspce.GlobalStoreApi.Application.csproj": {
+              "projectPath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspce.GlobalStoreApi.Application\\Ntvspce.GlobalStoreApi.Application.csproj"
             }
           }
         }
@@ -7990,6 +8085,14 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[10.0.0, )"
+          },
+          "MediatR": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[9.0.0, )"
           },
           "Microsoft.AspNetCore.Mvc.Versioning": {
             "target": "Package",
@@ -8019,14 +8122,11 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNet.OData.Builder;
 using Microsoft.AspNetCore.Mvc;
-using Ntvspace.GlobalStoreApi.Management.Models.v1;
-using System.Security.Claims;
+using Ntvspace.GlobalStoreApi.Domain.Models;
 
 namespace Ntvspace.GlobalStoreApi.Web.Configuration
 {
@@ -17,18 +16,25 @@ namespace Ntvspace.GlobalStoreApi.Web.Configuration
     /// <param name="apiVersion"></param>
     public void Apply(ODataModelBuilder builder, ApiVersion apiVersion)
     {
-      var countries = builder.EntitySet<Country>("Countries").EntityType.HasKey(k => k.Id);
-      var countryByName = builder.Function("GetCountryByName")
+        var countries = builder.EntitySet<Country>("Countries").EntityType.HasKey(k => k.Id);
+        var countryByName = builder.Function("GetCountryByName")
                                  .Returns<Country>()
                                  .Parameter<string>("name");
 
-      var stores = builder.EntitySet<Store>("Stores").EntityType.HasKey(k => k.Id);
-      var merchants = builder.EntitySet<Merchant>("Merchants").EntityType.HasKey(k => k.Id);
+        var merchants = builder.EntitySet<Merchant>("Merchants").EntityType.HasKey(k => k.Id);
 
-      var test = builder.Function("GetClaims")
-                  .ReturnsCollection<string>();
+        var locations = builder.EntitySet<Location>("Locations").EntityType.HasKey(k => k.Id);
+        var merchantLocations = builder.EntityType<Location>().Collection
+                                .Function("GetMerchantLocations")
+                                .ReturnsCollection<Location>();
+                                //.Parameter<int>("merchantId");
 
-      builder.Action("CreateLocations");
+        var search = builder.EntitySet<GlobalSearch>("Search").EntityType.HasKey(k => k.Id);
+
+        //var test = builder.Function("GetClaims")
+        //          .ReturnsCollection<string>();
+
+        //builder.Action("CreateLocations");
     }
   }
 }

@@ -15,6 +15,6 @@ namespace Ntvspace.GlobalStoreApi.Data.Entities
     public int MerchantClassificationId { get; set; }
     public virtual MerchantClassification MerchantClassification { get; set; }
     public virtual ICollection<Address> Addresses { get; set; }
-    public virtual ICollection<Store> Stores { get; set; }
+    public virtual ICollection<Location> Locations { get; set; }
   }
 }

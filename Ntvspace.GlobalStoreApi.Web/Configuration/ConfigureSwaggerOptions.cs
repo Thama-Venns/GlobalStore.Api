@@ -36,7 +36,7 @@ namespace Ntvspace.GlobalStoreApi.Web.Configuration
             Title = "Global Store API",
             Description = "Connecting merchants and consumers all over the world",
             Version = "v" + description.ApiVersion.ToString(),
-            //TermsOfService = new Uri("https://twitter.com/ntvinn")
+            TermsOfService = new Uri("https://twitter.com/ntvinn")
           }
         );
       }

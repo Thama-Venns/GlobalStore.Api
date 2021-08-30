@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Core\\Ntvspace.GlobalStoreApi.Tests.Core.csproj": {}
+    "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Core\\Ntvspace.GlobalStoreApi.Tests.Core.csproj": {}
   },
   "projects": {
-    "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Core\\Ntvspace.GlobalStoreApi.Tests.Core.csproj": {
+    "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Core\\Ntvspace.GlobalStoreApi.Tests.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Core\\Ntvspace.GlobalStoreApi.Tests.Core.csproj",
+        "projectUniqueName": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Core\\Ntvspace.GlobalStoreApi.Tests.Core.csproj",
         "projectName": "Ntvspace.GlobalStoreApi.Tests.Core",
-        "projectPath": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Core\\Ntvspace.GlobalStoreApi.Tests.Core.csproj",
+        "projectPath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Core\\Ntvspace.GlobalStoreApi.Tests.Core.csproj",
         "packagesPath": "C:\\Users\\tnedzungani\\.nuget\\packages\\",
-        "outputPath": "C:\\Antifragile\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Core\\obj\\",
+        "outputPath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tnedzungani\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

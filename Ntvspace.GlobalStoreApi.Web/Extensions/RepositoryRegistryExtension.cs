@@ -2,9 +2,9 @@
 using Microsoft.Extensions.DependencyInjection;
 using Ntvspace.GlobalStoreApi.Management.Services;
 using Ntvspace.GlobalStoreApi.Web.Core.ExternalApi;
-using Ntvspace.GlobalStoreApi.Web.Core.Operations;
-using Ntvspace.GlobalStoreApi.Web.Core.Repositories;
-using Ntvspace.GlobalStoreApi.Web.Core.Services;
+using Ntvspace.GlobalStoreApi.Web.Domain.Operations;
+using Ntvspace.GlobalStoreApi.Web.Domain.Repositories;
+using Ntvspace.GlobalStoreApi.Web.Domain.Services;
 
 namespace Ntvspace.GlobalStoreApi.Web.Extensions
 {
@@ -24,9 +24,11 @@ namespace Ntvspace.GlobalStoreApi.Web.Extensions
       services.AddScoped(typeof(CountriesService));
 
       //Repositories
+      services.AddScoped(typeof(IGlobalRepository), typeof(GlobalRepository));
       services.AddScoped(typeof(IAPIService), typeof(APIService));
-      services.AddScoped(typeof(IStoresRepository), typeof(StoresRepositoryService));
+      services.AddScoped(typeof(ILocationsRepository), typeof(LocationsRepositoryService));
       services.AddScoped(typeof(ICountriesRepository), typeof(CountriesRepositoryService));
+      services.AddScoped(typeof(IMerchantsRepository), typeof(MerchantsRepository));
     }
   }
 }
