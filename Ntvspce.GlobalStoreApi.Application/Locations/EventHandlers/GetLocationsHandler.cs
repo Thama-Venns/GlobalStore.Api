@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.Extensions.Logging;
 using Ntvspace.GlobalStoreApi.Domain.Models;
 using Ntvspace.GlobalStoreApi.Web.Domain.Repositories;
 using Ntvspce.GlobalStoreApi.Application.Locations.Queries;
@@ -11,6 +12,7 @@ namespace Ntvspce.GlobalStoreApi.Application.Locations.EventHandlers
     public class GetLocationsHandler : IRequestHandler<GetLocationsQuery, IQueryable<Location>>
     {
         private readonly ILocationsRepository _locationsRepository;
+        private readonly ILogger _logger;
 
         public GetLocationsHandler(ILocationsRepository locationsRepository)
         {

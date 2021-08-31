@@ -41,7 +41,7 @@
             Provides operations to handle exceptions.
             </summary>
         </member>
-        <member name="M:Ntvspace.GlobalStoreApi.Web.Configuration.ExceptionHandlingMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger{Ntvspace.GlobalStoreApi.Web.Core.Models.HttpError})">
+        <member name="M:Ntvspace.GlobalStoreApi.Web.Configuration.ExceptionHandlingMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Serilog.ILogger)">
             <summary>
             Initializes the constructor.
             </summary>

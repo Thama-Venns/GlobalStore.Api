@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YsfHxAjwVan+DawLkhQezu0h1fZ44uxr2WQ6DhipIAOpgr6cakD4FmAzNj4cIigHw21kft+USQmZODaEuq/kgQ==",
+  "dgSpecHash": "gfr/XOPbMcbiCRQP96+6idshddG0j7kvpiLjpQVpeA5keNw3fitCzIlOm1fus5nBNsXNgu4lvEA0ETNLY0TlJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Management\\Ntvspace.GlobalStoreApi.Tests.Management.csproj",
+  "projectFilePath": "C:\\Antifragile\\GlobalStore.Application\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Tests.Management\\Ntvspace.GlobalStoreApi.Tests.Management.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tnedzungani\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\tnedzungani\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

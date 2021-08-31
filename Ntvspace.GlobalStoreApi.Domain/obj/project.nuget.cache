@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nvx5leWS6fVTnQa5prwXhDwlBSvlR1NCByOSsuj1bCzvUMkj4R0r2pmV73UKUFhSSSTnLzwXU2QD52cQr7tdVw==",
+  "dgSpecHash": "K1l4CxndOmrvu5HCW2cMRUGJscJznxMFu183zxhhHlwfUUcld5wNE5scz3tUq1G8sNaiKMvZqJ2KX8pHbU9O/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Domain\\Ntvspace.GlobalStoreApi.Domain.csproj",
+  "projectFilePath": "C:\\Antifragile\\GlobalStore.Application\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Domain\\Ntvspace.GlobalStoreApi.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tnedzungani\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\tnedzungani\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

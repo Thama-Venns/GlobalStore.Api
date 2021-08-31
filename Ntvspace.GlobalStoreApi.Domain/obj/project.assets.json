@@ -7024,11 +7024,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Domain\\Ntvspace.GlobalStoreApi.Domain.csproj",
+      "projectUniqueName": "C:\\Antifragile\\GlobalStore.Application\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Domain\\Ntvspace.GlobalStoreApi.Domain.csproj",
       "projectName": "Ntvspace.GlobalStoreApi.Domain",
-      "projectPath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Domain\\Ntvspace.GlobalStoreApi.Domain.csproj",
+      "projectPath": "C:\\Antifragile\\GlobalStore.Application\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Domain\\Ntvspace.GlobalStoreApi.Domain.csproj",
       "packagesPath": "C:\\Users\\tnedzungani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Domain\\obj\\",
+      "outputPath": "C:\\Antifragile\\GlobalStore.Application\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tnedzungani\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7045,8 +7045,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj": {
-              "projectPath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj"
+            "C:\\Antifragile\\GlobalStore.Application\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj": {
+              "projectPath": "C:\\Antifragile\\GlobalStore.Application\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Data\\Ntvspace.GlobalStoreApi.Data.csproj"
             }
           }
         }

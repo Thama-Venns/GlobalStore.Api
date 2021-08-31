@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e5jP0J7zl+QCOlBCgnGzjdpySFEVHhTTZIqfQGBvrM5Ckki4JWGbUkBusHxVVrjeCyEVIVVhSHtm8Hqh/stRlQ==",
+  "dgSpecHash": "mzSYVeMkCDTQMLVTlOcAOLyudMaCx4vwqRlkXboLbIbw9g/oa7csVBTWh8tzOAKTLOIme4/CCNyKDxq24X4Aag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspce.GlobalStoreApi.Application\\Ntvspce.GlobalStoreApi.Application.csproj",
+  "projectFilePath": "C:\\Antifragile\\GlobalStore.Application\\GlobalStore.Api\\Ntvspce.GlobalStoreApi.Application\\Ntvspce.GlobalStoreApi.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tnedzungani\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\tnedzungani\\.nuget\\packages\\elasticsearch.net\\7.8.1\\elasticsearch.net.7.8.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JwuWmrFrIrytQXMe+UPUICvovXEYUCNcIxNKEoIfvxlHao3Z2EwyWyKJj6jmq+jgOjRUEi8HSjkj3nsmx5VBXQ==",
+  "dgSpecHash": "qp8ryvGQERY8yn17s/G8BmkdCeweRaLer1YqzmKrFIQemDp5k9ty7yE0yWaW/at0Y8issYU3kHiLouCrj20S3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tnedzungani\\Documents\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Management\\Ntvspace.GlobalStoreApi.Management.csproj",
+  "projectFilePath": "C:\\Antifragile\\GlobalStore.Application\\GlobalStore.Api\\Ntvspace.GlobalStoreApi.Management\\Ntvspace.GlobalStoreApi.Management.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tnedzungani\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\tnedzungani\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
