@@ -33,13 +33,14 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+
+
 - task: CopyFiles@1
   displayName: 'Copy Files to : $(build.artifactsStagingDirectory)'
   inputs:
     SourceFolder: $'$(Build.SourcesDirectory)' 
     Contents: |
       **\bin\$(buildConfiguration)\**
-      src\*.testSettings
     TargetFolder: '$(build.artifactsStagingDirectory)'
   condition: succeededOrFailed()
 
