@@ -35,14 +35,14 @@ steps:
 
 
 
-- task: CopyFiles@1
-  displayName: 'Copy Files to : $(build.artifactsStagingDirectory)'
-  inputs:
-    SourceFolder: $'$(Build.SourcesDirectory)' 
-    Contents: |
-      **\bin\$(buildConfiguration)\**
-    TargetFolder: '$(build.artifactsStagingDirectory)'
-  condition: succeededOrFailed()
+# - task: CopyFiles@1
+#   displayName: 'Copy Files to : $(Build.artifactsStagingDirectory)'
+#   inputs:
+#     SourceFolder: $'$(Build.SourcesDirectory)' 
+#     Contents: |
+#       **\bin\$(buildConfiguration)\**
+#     TargetFolder: '$(build.artifactsStagingDirectory)'
+#   condition: succeededOrFailed()
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
